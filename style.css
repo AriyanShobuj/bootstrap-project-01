@@ -1,0 +1,263 @@
+body,h1,h2,h3,h4,h5,h6,a,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* =====================nav============ */
+.my-nav .navbar-brand {
+    font-weight: 500;
+    font-size: 30px;
+}
+.my-nav .navbar-brand:hover {
+    opacity: .8;
+}
+.my-nav a span .fas{
+        font-weight: 900;
+        color: white;
+        background: #6278DF;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        position: relative;
+        top: 1px;
+        padding: 6px;
+        border-radius: 7px;
+
+}
+li.nav-item {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.nav-item ul a:hover{
+    background: #6278DF;
+    color: #fff;
+    border: 1px solid transparent;
+}
+/* banner section */
+.banner-section{
+    background: url(image/mbr-10.jpg) no-repeat center center;
+    padding: 200px  0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgb(77, 54, 55 .6);
+  z-index: -1;
+}
+.banner-content .form-control{
+    padding: 17px 16px;
+}
+.banner-content .btn{
+    padding: 17px 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: .8s;
+}
+.banner-content .btn:hover{
+    color:#6278DF ;
+    background: #fff;
+    border: 1px solid transparent;
+}
+/* about section */
+.about-section{
+background: #F7F9FF;
+}
+.about-text-left{
+    align-items: center;
+   padding-top: 125px;
+}
+.about-text-left h2{
+    font-size: 3rem;
+}
+.about-text-left .lead{
+    font-size: 22px;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.f-item-left{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 05px;
+}
+.f-item-left img{
+    height: 100%;
+    width:auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -157px;
+}
+.f-item-right{
+    width: 60%;
+    padding: 25px;
+}
+/* fortfolio css */
+.portfoio-item a{
+    position: relative;
+    display: block;
+}
+.portfoio-item a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfoio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* pricing */
+.pricing-section{
+    background: #F7F9FF;
+}
+.pricing-item{
+    background: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+
+}
+.pricing-item li {
+    list-style: none;
+    margin-top: 2.4rem;
+    font-size: 22px;
+}
+.pricing-item span{
+    color: #6278DF;
+    font-size: 26px;
+    margin-right: 10px;
+    width: 31px;
+    display: inline-block;
+}
+.pricing-item h2{
+    margin-left: 2rem !important;
+}
+.pricing-item h5{
+    margin-left: 2rem !important;
+}
+.pricing-button a{
+   padding: 0.9rem 9rem;
+   border: none;
+   box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+   background: #fff;
+   transition: .3s; 
+ 
+}
+.pricing-button{
+    padding: 10px 0;
+    margin: 5px 0;
+}
+.pricing-item:hover a{
+    background:#6278DF;
+    color: #fff;
+}
+.pricing-item a:hover{
+    background: #000;
+    color: #fff;
+}
+/* testimonial */
+.author-info{
+    width: 210px;
+    margin: 0 auto;
+}
+.author-info img{
+  width: 85px;
+  margin-right: 13px;
+}
+.author-details{
+    position: relative;
+    top: 15px;
+}
+.testimonial-item span{
+    font-weight: 900;
+    font-size: 5rem;
+    color: #777;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+/* about */
+.about-item .card img{
+    width: 118px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+/* contact */
+.my-contact-form .card{
+  padding: 50px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+  background:#fff;
+}
+.my-contact-form input{
+    padding: 20px 25px;
+}
+.my-contact-form a{
+        padding: 15px 26px;
+        margin-top: 11px;
+        background: #6278DF;
+        border-radius: 5px;
+        font-weight: 500;
+        color: #fff;
+        box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+        transition: .4s;
+        border: 1px solid #c7cbd6;
+       
+  
+}
+.my-contact-form a:hover{
+    color:#6278DF ;
+    background: #fff;
+    transform: scale(1.1);
+    border: 1px solid #c7cbd6;
+   
+}
+.app-section .g-btn {
+    font-weight: 600;
+    padding: 20px 50px;
+    border: 1px solid #5BA533;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#5BA533;
+    transition: .4s;
+}
+.app-section .g-btn:hover{
+    color:white;
+    background:#5BA533;
+    border: 1px solid #5BA533;
+}
+.app-section .a-btn {
+    font-weight: 600;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.app-section .a-btn:hover{
+    background:#000;
+}
+/* footer-section */
+.footer-section{
+    background: #F7F9FF;
+}
+/* responsive css */
+
+@media (max-width:992px){}
+.btn,.form-control {
+    margin: 20px 0;
+    margin-left: 21px;
+}
+
+
+
+
